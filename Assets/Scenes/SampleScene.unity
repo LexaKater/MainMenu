@@ -726,7 +726,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -26, y: 73}
+  m_AnchoredPosition: {x: -40, y: -62}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &449827155
@@ -781,8 +781,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 449827156}
-        m_TargetAssemblyTypeName: MasterVolumeChanger, Assembly-CSharp
-        m_MethodName: ChangeVolume
+        m_TargetAssemblyTypeName: VolumeSnagur, Assembly-CSharp
+        m_MethodName: ChangeVolumeMaster
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -801,7 +801,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 449827153}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fc666ef22a4be64e94c77bb8f2705b1, type: 3}
+  m_Script: {fileID: 11500000, guid: 36461f3eba34a3143901ddc0578ce92b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _mixer: {fileID: 24300002, guid: 7e77f2ef643d57846b6d227e44a1e3db, type: 2}
@@ -1056,7 +1056,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -26, y: -208}
+  m_AnchoredPosition: {x: -36, y: -208}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &516749683
@@ -1111,8 +1111,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 516749684}
-        m_TargetAssemblyTypeName: MusicVolumeChanger, Assembly-CSharp
-        m_MethodName: ChangeVolume
+        m_TargetAssemblyTypeName: VolumeSnagur, Assembly-CSharp
+        m_MethodName: ChangeVolumeMusic
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1131,10 +1131,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 516749681}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a99976096d8d16642a1cc7c3e7e0dbc1, type: 3}
+  m_Script: {fileID: 11500000, guid: 36461f3eba34a3143901ddc0578ce92b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mixer: {fileID: 64095192179677731, guid: 7e77f2ef643d57846b6d227e44a1e3db, type: 2}
+  _mixer: {fileID: 24300002, guid: 7e77f2ef643d57846b6d227e44a1e3db, type: 2}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1742,7 +1742,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -27, y: -76}
+  m_AnchoredPosition: {x: -38, y: -138}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &909702562
@@ -1797,8 +1797,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 909702563}
-        m_TargetAssemblyTypeName: EffectsVolumeChanger, Assembly-CSharp
-        m_MethodName: ChangeVolume
+        m_TargetAssemblyTypeName: VolumeSnagur, Assembly-CSharp
+        m_MethodName: ChangeVolumeEffects
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1817,10 +1817,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 909702560}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e1329c597b5f0c478e74ad9f7b8d020, type: 3}
+  m_Script: {fileID: 11500000, guid: 36461f3eba34a3143901ddc0578ce92b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mixer: {fileID: 4769546036300416915, guid: 7e77f2ef643d57846b6d227e44a1e3db, type: 2}
+  _mixer: {fileID: 24300002, guid: 7e77f2ef643d57846b6d227e44a1e3db, type: 2}
 --- !u!1 &918441532
 GameObject:
   m_ObjectHideFlags: 0
